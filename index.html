@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<!--
+Template Name: Natucam
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>testing 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="layout/scripts/index.js">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="layout/scripts/jquery.bxslider.css; ?>">     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul> <!--
+      <li><i class="fa fa-clock-o"></i> Mon. - Fri. 8am - 5pm</li>-->
+      <li><i class="fa fa-phone"></i> 0000000000000</li>
+      <li><i class="fa fa-envelope-o"></i> gmail.com</li>
+      <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+
+                                        <!-- registration img -->
+      <li><a href="#" title="Login">
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-lg fa-edit"></i></button> </a>
+      </li>
+                                       <!-- / registration img -->
+
+ 
+      <li><a href="#" title="Sign Up"><button type="buttona" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModals"><i class="fa fa-lg fa-sign-in"></i></a></button></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+                                      <!-- avtorizacia -->
+    <div class="modal fade" id="myModals" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div style="background-color: #000;" class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <center><h4 style="color: #fff;" class="modal-title">log in</h4></center>
+        </div>
+        <div class="modal-body">
+         
+<div class="container" style="display: inline-block; padding: 35px 0px;">
+
+
+
+  <form style="margin-left: 150px;">
+    <div class="form-group" >
+      <label style="display: inline-block;" for="usr">Email or Phone:</label>
+      <input style="width: 250px;" type="text"  placeholder="Email or Phone" class="form-control" id="usr">
+    </div>
+      <div class="form-group">
+      <label style="display: inline-block;" for="usr">Password:</label>
+      <input style="width: 250px;" type="Password"  placeholder="Password" class="form-control" id="usr">
+    </div>
+    
+    <div style="margin-left: 150px;" class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+  </form>
+</div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+                                      <!-- //avtorizacia -->
+
+
+
+
+                                              <!-- registration opens windou -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div style="background-color: #000;" class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <center><h4 style="color: #fff;" class="modal-title">Registration</h4></center>
+        </div>
+        <div class="modal-body">
+         
+<div class="container" style="display: inline-block; padding: 35px 0px;">
+<div class="thumbnail">
+  <div class="view-img">
+    <img src="images/demo/backgrounds/backgroundcolor.jpg" alt="">
+  </div>
+  <input type="file" id="upload">
+  <center>
+  <button type="button" class="btn uploadbtn" style="margin-right: 45px; background-color: rgb(198, 198, 198); color:#333;"><span>Upload Image</span></button></center>
+</div>
+
+
+  <form>
+    <div class="form-group">
+      <label style="display: inline-block;" for="usr">First name:</label>
+      <input style="width: 250px;" type="text"  placeholder="First name" class="form-control" id="usr">
+    </div>
+      <div class="form-group">
+      <label style="display: inline-block;" for="usr">Last name:</label>
+      <input style="width: 250px;" type="text"  placeholder="Last name" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label style="display: inline-block;" for="usr">Mobile number:</label>
+      <input style="width: 250px;" type="tel"  placeholder="Mobile number" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label style="display: inline-block;" for="usr">Email</label>
+      <input style="width: 250px;" type="email"  placeholder="Email" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input style="width: 250px;"  type="password" placeholder=" password" class="form-control" id="pwd">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Re-enter Password:</label>
+      <input style="width: 250px;"  type="password" placeholder="Re-enter Password" class="form-control" id="pwd">
+    </div>
+    <div style="margin-left: 1px;" class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+  </form>
+</div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                                          <!-- closed registration  -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/uni-small.BJ-Rhb1ks5.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a class="drop" href="#">Pages</a>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Full Width</a></li>
+              <li><a href="">Sidebar Left</a></li>
+              <li><a href="">Sidebar Right</a></li>
+              <li><a href="">Basic Grid</a></li>
+            </ul>
+          </li>
+          <li><a class="drop" href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">Level 2</a></li>
+              <li><a class="drop" href="#">Level 2 + Drop</a>
+                <ul>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 2</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.tsu.ge/">tsu</a></li>
+          <li><a href="pages/contact.html">contact</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear">
+>
+
+   <!-- <article> 
+       ################################################################################################ 
+      <h3 class="heading">satauri</h3>
+      <p>text</p>
+      <p class="font-x1 uppercase bold">//</p>
+      <footer>
+        <ul class="nospace inline pushright">
+          <li><a class="btn" href="#">1</a></li>
+          <li><a class="btn inverse" href="#">2</a></li>
+        </ul>
+      </footer>-->
+      <!-- ################################################################################################ -->
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay light" style="background-image:url('images/demo/backgrounds/enrol.jpg');">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading"> DEPARTMENT OF MATHEMATICS</h6>
+      
+    </div>
+    <ul class="nospace group"><li class="one_third first btmspace-30">
+       
+          <h6 class="heading"><a href="chairs.html">CHAIRS</a></h6>
+          <p><a href="chairs/algebrageometry.html">Algebra and Geometry</a></p>
+          <p><a href="chairs/differentialequations.html">Differential Equations</a></p>
+          <P><a href="chairs/mathematicalanalysis.html">Mathematical Analysis</a></P>
+          <P><a href="chairs/mathematicallogic.html">Mathematical Logic and Discrete Structures</a></P>
+          <P><a href="chairs/mechanics.html">Mechanics</a></P>
+          <P><a href="chairs/numericalanalysis.html">Numerical Analysis and Computational Technologies</a></P>
+          <P><a href="chairs/probability.html">Probability Theory and Mathematical Statistics</a></P>
+          <p><a href="chairs/archive.html">Archive</a></p>
+        </article>
+      </li>
+
+      <li class="one_third btmspace-30">
+          <h6 class="heading">Studying</h6>
+          <p>Study Offers</p>
+          <p>Course guidance</p>
+<p>Lecture notes</p>
+<p>Mobility programs</p>
+        </article>
+      </li>
+      <li class="one_third btmspace-30">
+          <h6 class="heading"><a href="doctoral_program.html">INTERNATIONAL DOCTORAL PROGRAM</a></h6>
+          
+          <p><a href="internationaldoctoral/staf.html">staff</a></p>
+          <p>PhD studies</p>
+          <p>PhD Regulation in University of Gottingen</p>
+            <p>PhD exam</p>
+          <p>Dissertations</p>
+           <p>History</p>
+<p><a href="images/demo/gallery/vw.pdf">Volkswagen Grant</a></p>
+        </article>
+      </li>
+
+      <li class="one_third first">
+          <h6 class="heading">Institutes</h6>
+          
+<p><a href="http://rmi.tsu.ge/eng/welcome.htm">Andrea Razmadze Mathematical Insitute</a></p>
+<p><a href="http://www.viam.science.tsu.ge/">Vekua Institute of Applied Mathematics</a></p>
+
+        </article>
+      </li>
+    
+     
+     
+<li class="one_third">
+                 <h6 class="heading">Service</h6>
+          <p>Link collection</p>
+<p>Libraries</p>
+<p>How to get here</p>
+        </article>
+      </li>
+
+  
+
+    <li class="one_third">
+                 <h6 class="heading">Journals</h6>
+          <p><a href="https://www.degruyter.com/view/j/gmj">Georgian Mathematical Journal</a></p>
+          <p>Tbilisi  Mathematical Journal</p>
+         <p>journal of Homotopy and Related Structures</p>
+         <p>Proceedings A. Razmadze Mathematics Institute</p>
+         <p>Proceedings Of VIAM</p>
+         <p>Matematics Popular Journal(in Georgian) </p>
+        </article>
+      </li>
+
+      <li class="one_third first">
+                 <h6 class="heading">Math Links</h6>
+          <p>test</p>
+<p>test</p>
+<p>test</p>
+        </article>
+      </li>
+      <li class="one_third">
+                 <h6 class="heading">Conferences and seminars</h6>
+          <p><a href="https://www.tsu.ge/ge/faculties/science/aybwuvm7mmpi70j9o/">TSU Conferences</a></p>
+<p>Libraries</p>
+<p>How to get here</p>
+        </article>
+      </li>
+
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <div class="group team">
+      <h3 style="text-align: center; height: 80px;"><a href="internationaldoctoral/staf.html">staff</a></h3>
+      <figure class="one_quarter first" style="margin-left: 85px;"><a href="leqtors/malkhazbakuradze.html"><img src="images/demo/gallery/malkhaz.jpg" alt=""></a>
+        <figcaption>
+          <p class="title_names_index">  Bakuradze  Malkhaz</p>
+          <em style="margin-bottom: 10px; margin-top: 10px;">pakulteti</em>
+          <em style="margin-bottom: 10px; margin-top: 10px;">tel</em>
+          <footer>
+            <ul class="faico clear">
+              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+            </ul>
+          </footer>
+        </figcaption>
+      </figure>
+       <figure  class="one_quarter" style="margin-left: 85px;"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a>
+        <figcaption>
+          <p class="title_names_index"> Botchorishvili Ramaz</p>
+          <em style="margin-bottom: 10px; margin-top: 10px;">pakulteti</em>
+          <em style="margin-bottom: 10px; margin-top: 10px;">tel</em>
+          <footer>
+            <ul class="faico clear">
+              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+            </ul>
+          </footer>
+        </figcaption>
+      </figure>
+      <figure class="one_quarter" style="margin-left: 85px;"><a href="leqtors/goginavaushangi.html"><img src="images/demo/gallery/GoginavaUshangi.jpg" alt=""></a>
+        <figcaption>
+          <p class="title_names_index"> Goginava Ushangi</p>
+          <em style="margin-bottom: 10px; margin-top: 10px;">pakulteti</em>
+          <em style="margin-bottom: 10px; margin-top: 10px;">tel</em>
+          <footer>
+            <ul class="faico clear">
+              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+            </ul>
+          </footer>
+        </figcaption>
+      </figure>
+
+    
+    </div>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/Tbilisi_State_University_Interior.JPG');">
+  <figure class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="nospace group logos">
+      <li class="one_quarter first"><a href="#"><img src="images/demo/222x100.png" alt=""></a></li>
+      <li class="one_quarter"><a href="#"><img src="images/demo/222x100.png" alt=""></a></li>
+      <li class="one_quarter"><a href="#"><img src="images/demo/222x100.png" alt=""></a></li>
+      <li class="one_quarter"><a href="#"><img src="images/demo/222x100.png" alt=""></a></li>
+    </ul>
+    <figcaption><a class="btn" href="#">kompaniebi</a></figcaption>
+    <!-- ################################################################################################ -->
+  </figure>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">video lectures  </h6>
+      
+    </div>
+    <div class="group latest">
+      <article class="one_third first">
+        <figure> <iframe src="https://www.youtube-nocookie.com/embed/8Z9089048wk?modestbranding=1&amp;showinfo=0&amp;vq=hd1080&amp;rel=0&amp;wmode=transparent" allowfullscreen></iframe></a>
+          <figcaption>
+            <time datetime="2045-04-06T08:15+00:00"><strong>06</strong> <em>Apr</em></time>
+          </figcaption>
+        </figure>
+        <div class="txtwrap">
+          <h4 class="heading">satauri</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fa fa-tag"></i> <a href="#">kategoria</a></li>
+          </ul>
+          <p>text [&hellip;]</p>
+          <footer><a href="#">Read More &raquo;</a></footer>
+        </div>
+      </article>
+      <article class="one_third">
+        <figure><iframe src="https://www.youtube-nocookie.com/embed/8Z9089048wk?modestbranding=1&amp;showinfo=0&amp;vq=hd1080&amp;rel=0&amp;wmode=transparent" allowfullscreen></iframe>
+          <figcaption>
+            <time datetime="2045-04-05T08:15+00:00"><strong>05</strong> <em>Apr</em></time>
+          </figcaption>
+        </figure>
+        <div class="txtwrap">
+          <h4 class="heading">satauri</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fa fa-tag"></i> <a href="#">kategoria</a></li>
+          </ul>
+          <p>text[&hellip;]</p>
+          <footer><a href="#">Read More &raquo;</a></footer>
+        </div>
+      </article>
+      <article class="one_third">
+        <figure><a href="#"><img src="images/demo/320x220.png" alt=""></a>
+          <figcaption>
+            <time datetime="2045-04-04T08:15+00:00"><strong>04</strong> <em>Apr</em></time>
+          </figcaption>
+        </figure>
+        <div class="txtwrap">
+          <h4 class="heading">text</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fa fa-tag"></i> <a href="#">kategoria</a></li>
+          </ul>
+          <p>text[&hellip;]</p>
+          <footer><a href="#">Read More &raquo;</a></footer>
+        </div>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/matematik.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">contact</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+         misamarti
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +00 </li>
+        <li><i class="fa fa-fax"></i> +00 </li>
+        <li><i class="fa fa-envelope-o"></i> gmail.com</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">regist</h6>
+      <p class="nospace btmspace-30">text</p>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <input class="btmspace-15" type="text" value="" placeholder="pasword">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="one_third">
+      <h6 class="heading"></h6>
+      <figure><a href="#"><img class="borderedbox inspace-10 btmspace-15" src="images/demo/320x168.png" alt=""></a>
+        <figcaption>
+          <h6 class="nospace font-x1"><a href="#">/</a></h6>
+          <time class="font-xs block btmspace-10" datetime="2045-04-06">time<sup>th</sup> April 2045</time>
+        </figcaption>
+      </figure>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2017 - - <a href="#"></a></p>
+    <p class="fl_right"> <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">testing</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.fitvids.js"></script>
+</body>
+</html>
